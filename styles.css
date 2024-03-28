@@ -7,23 +7,32 @@ body{
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 .alarmclock{
-    text-align: center;
-    padding: 20px;
-    
-    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+   font-size: 3.5vw;
+   text-align: center;
+   
 }
+
+  
+
 
 #setalarm{
     cursor: pointer;
     transition: background-color 0.3s ease;
-    background-color: yellow;
+    background-color: #FA709A;
     border: whitesmoke;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 1em;
 }
 
+#entertime{
+    background-color:whitesmoke ;
+    border: #FA709A;
+    border-radius: 5px;
+
+}
 
